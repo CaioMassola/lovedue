@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=VT323&display=swap');
+
+html {
+    --bg: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    --painel-bg: #fff;
+    --color-primary: #E7509C;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+.painel {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--painel-bg);;
+    margin-top: 63px;
+    margin-left: 262px;
+    align-self: center;
+}
+
+.painel-image {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.painel-image-logo {
+    height: 80%;
+}
+.painel-image-text {
+    height: 20%;
+    background-color: var(--color-primary);
+    border-bottom-left-radius: 20px;
+}
+
+.painel-image img {
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.painel-login {
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--painel-bg)
+}
+
+.label {
+    color: var(--painel-bg);
+    font-size: 18px;
+    text-align: center;
+}
+
+.welcome-view {
+    height: 100px;
+    background-color: azure;
+}
+
+.social-login-view {
+    height: 70px;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.separator {
+    color: #fff;
+}
+
+.separator-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hr.light-grey {
+    margin-top: -10px;
+    border-top: 1px solid #f2f2f2;
+}
+
+.line {
+    margin-top: -20px
+}
+
+.text-or {
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.btn-social-login {
+    text-decoration: none;
+    background-color: var(--painel-bg);
+    border: 0.5px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 #f2f2f2 , 0 1px 5px 0 #f2f2f2;
+    font-size: 12px;
+    padding-top: 8px;
+    width: 40%;
+    color: #737373;;
+    text-align: center;
+    height: 40%;
+}
+
+.btn-social-login:hover {
+    background-color: var(--color-primary);
+    color: var(--painel-bg);
+}
+
+.btn-login-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-btn-social-login {
+    margin-top: 1px;
+}
+
+.img-social-login {
+    height: 20px;
+    width: 20px;
+}
+
+.text-love-due {
+    font-family: 'VT323', monospace;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.text-welcome {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    color: var(--color-primary);
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.label-input {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #737373;
+}
+
+.view-input {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 8px;
+}
+
+.input {
+    border: 0px;
+    border-bottom: 1px solid var(--color-primary) ;
+    height: 30px;
+    background-color: var(--bg);
+    outline: 0;
+    font-family: 'Righteous', cursive;
+}
+
+.input:focus {
+    border-bottom: 2px solid rgba(148,187,233,1);
+}
+
+.text-link {
+    display: flex;
+    justify-content: flex-end;
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.text-link:hover{
+    color: var(--color-primary);
+}
+
+.btnSign {
+    border: 1px solid var(--color-primary);
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: var(--color-primary);
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+
+.btnSign:hover {
+    background: var(--color-primary);
+    color: var(--painel-bg);
+}
+
+.create-account {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.copyright-text {
+    color: #737373;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+}
