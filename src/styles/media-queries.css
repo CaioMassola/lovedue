@@ -1,0 +1,128 @@
+/* Large Screens */
+@media (min-width: 1201px) {
+    .painel {
+        margin-top: 7%;
+        margin-left: 24%;
+    }
+}
+
+/*Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .painel {
+        margin-top: 12%;
+        margin-left: 10%;
+    }
+}
+
+/*iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        background: rgba(238,174,202,1) ;
+    }
+    .painel {
+        width: 700px;
+        height: 950px;
+        margin-top: 5%;
+        margin-left: 33px;
+        flex-direction: column;
+
+}
+    .painel-image {
+        width: 100%;
+        height: 200px;
+        background-color: #E7509C;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        align-items: center;
+    }
+
+    .painel-image img {
+        border-top-right-radius: 20px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .painel-image-text {
+        display: none;
+    }
+
+    .painel-login {
+        border-bottom-left-radius: 20px;
+        width: 100%;
+        height: 500px;
+    }
+    .text-love-due {
+        display: none;
+    }
+    
+    .text-welcome {
+        margin-top: 30px;
+        font-size: 32px;
+    }
+
+    .social-login-view {
+        height: 30%;
+    }
+    .btn-social-login {
+        box-shadow: 0 2px 2px 1px #999999;
+        font-size: 20px;
+        width: 40%;
+        height: 70px;
+    }
+
+    .text-btn-social-login {
+        margin-top: 20px;
+    }
+
+    .img-social-login {
+        height: 40px;
+        width: 40px;
+        margin-top: 15px;
+    }
+
+    .line {
+        margin-top: 30px
+    }
+
+    .text-or {
+        font-size: 30px;
+    }
+
+    .form-input {
+        margin-top: 20px
+    }
+
+    .view-input {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .label-input {
+        font-size: 20px;
+    }
+    .input {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .btnSign {
+        height: 60px;
+        font-size: 22px;
+    }
+
+    .text-link {
+        font-size: 20px;
+    }
+
+    .create-account {
+        font-size: 18px;
+    }
+
+    .copyright-text {
+        margin-top: 5px;
+        font-size: 15px;
+        margin-left: 15px;
+        text-align: left;
+    }
+}
+
