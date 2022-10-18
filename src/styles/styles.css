@@ -10,6 +10,9 @@ html {
 
 body {
     margin: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
     background: var(--bg);
     font-family: 'Righteous', cursive;
     color: black;
@@ -24,7 +27,6 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: var(--painel-bg);
     margin-top: 63px;
-    margin-left: 262px;
     align-self: center;
 }
 
