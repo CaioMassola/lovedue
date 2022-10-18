@@ -125,3 +125,21 @@
     }
 }
 
+/*Smartphone */
+@media (min-width: 320px) and (max-width: 480px){
+
+    .painel {
+        width: 90%;
+        height: 90vh;
+    }
+
+    .painel-image {
+        display: none;
+    }
+
+    .painel-login {
+        border-top-left-radius: 20px ;
+        border-bottom-left-radius: 20px;
+    }
+}
+
