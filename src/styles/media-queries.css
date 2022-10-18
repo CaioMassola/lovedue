@@ -7,12 +7,12 @@
 } */
 
 /*Small screens, laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* @media (min-width: 769px) and (max-width: 1024px) {
     .painel {
         margin-top: 12%;
         margin-left: 10%;
     }
-}
+} */
 
 /*iPads, Tablets */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -23,7 +23,6 @@
         width: 700px;
         height: 950px;
         margin-top: 5%;
-        margin-left: 33px;
         flex-direction: column;
 
 }
